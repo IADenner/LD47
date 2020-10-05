@@ -1,0 +1,330 @@
+application/x-vnd.lm_mohodoc
+version 19
+### Created in Moho version 6.0, � 1999-2009 Smith Micro Software, Inc.
+### Created: Mon Oct 05 14:43:46 2020
+
+### static values
+dimensions 30 30
+frame_range 1 240
+fps 24
+back_color 234 234 234 255
+noise_grain 0
+allow_3d true
+depth_sort false
+distance_sort false
+depth_of_field false 2 1 0.8
+stereo_separation -1
+extra_swf_frame false
+soundtrack ""
+
+### styles
+
+### animated values
+camera_track
+[
+	keys 1
+		0 1 0.1 0.5 0 0 1.7321
+]
+camera_zoom
+[
+	keys 1
+		0 1 0.1 0.5 1
+]
+camera_roll
+[
+	keys 1
+		0 1 0.1 0.5 0
+]
+camera_pan_tilt
+[
+	keys 1
+		0 1 0.1 0.5 0 0
+]
+
+### layers
+layer_type 1
+{
+	### generic layer values
+	name "Layer 1"
+	quality_flags 2044
+	animated_layer_effects false
+	origin 0 0
+	parent_bone -1
+	visible true
+	render_only false
+	edit_only false
+	scale_compensation true
+	rotate_to_follow false
+	face_camera false
+	masking 0
+	blend_mode 0
+	camera_immune false
+	dof_immune false
+	timing_offset 0
+
+	### transforms
+	translation
+	[
+		keys 1
+			0 1 0.1 0.5 0 0 0
+	]
+	scale
+	[
+		keys 1
+			0 1 0.1 0.5 1 1 1
+	]
+	rotation_x
+	[
+		keys 1
+			0 1 0.1 0.5 0
+	]
+	rotation_y
+	[
+		keys 1
+			0 1 0.1 0.5 0
+	]
+	rotation_z
+	[
+		keys 1
+			0 1 0.1 0.5 0
+	]
+	flip_h
+	[
+		keys 1
+			0 1 0.1 0.5 false
+	]
+	flip_v
+	[
+		keys 1
+			0 1 0.1 0.5 false
+	]
+	shear
+	[
+		keys 1
+			0 1 0.1 0.5 0 0 0
+	]
+
+	### layer effects
+
+	### mesh layer values
+	noisy_shapes false
+	noisy_lines false
+	animated_noise false
+	extra_sketchy true
+	noise_amp 0.012346
+	noise_scale 0.098765
+	extra_lines 5
+	gap_filling false
+	exclude_lines_from_mask false
+	fill_texture ""
+	line_texture ""
+	mesh
+	[
+		points 4
+			[
+				keys 3
+					0 1 0.1 0.5 0.016221 0.905229
+					12 1 0.1 0.5 0.016221 0.748694
+					24 1 0.1 0.5 0.016221 0.899647
+			]
+			[
+				keys 1
+					0 1 0.1 0.5 0.058333
+			]
+			-2
+			true
+			1
+				0 0 
+			[
+				keys 3
+					0 1 0.1 0.5 0.906851 0.014599
+					12 1 0.1 0.5 0.750316 0.014599
+					24 1 0.1 0.5 0.901269 0.014599
+			]
+			[
+				keys 1
+					0 1 0.1 0.5 0.058333
+			]
+			-2
+			true
+			1
+				0 1 
+			[
+				keys 3
+					0 1 0.1 0.5 0.016221 -0.876031
+					12 1 0.1 0.5 0.016221 -0.719496
+					24 1 0.1 0.5 0.016221 -0.870449
+			]
+			[
+				keys 1
+					0 1 0.1 0.5 0.058333
+			]
+			-2
+			true
+			1
+				0 2 
+			[
+				keys 3
+					0 1 0.1 0.5 -0.874409 0.014599
+					12 1 0.1 0.5 -0.717874 0.014599
+					24 1 0.1 0.5 -0.868827 0.014599
+			]
+			[
+				keys 1
+					0 1 0.1 0.5 0.058333
+			]
+			-2
+			true
+			1
+				0 3 
+		curves 1
+			4 true
+				0 true
+				[
+					keys 1
+						0 1 0.1 0.5 0.391379
+				]
+				1 true
+				[
+					keys 1
+						0 1 0.1 0.5 0.391379
+				]
+				2 true
+				[
+					keys 1
+						0 1 0.1 0.5 0.391379
+				]
+				3 true
+				[
+					keys 1
+						0 1 0.1 0.5 0.391379
+				]
+		shapes 1
+			"" true true true true 
+			[
+				keys 1
+					0 1 0.1 0.5 1
+			]
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+			[
+				keys 1
+					0 1 0.1 0.5 0 0
+			]
+				4
+					0 0 0
+					0 1 0
+					0 2 0
+					0 3 0
+				""
+					false
+					[
+						keys 1
+							0 0 0.1 0.5 1 0 0 1
+					]
+					false 0.00823
+					false
+					[
+						keys 1
+							0 0 0.1 0.5 1 1 1 1
+					]
+					""
+					false
+					6.283185
+					0.25
+					true
+					true
+					9
+						1 8
+					[
+						keys 1
+							0 1 0.1 0.5 0
+					]
+							[
+						keys 1
+							0 1 0.1 0.5 1 1 1 1
+					]
+							[
+						keys 1
+							0 1 0.1 0.5 0.105882
+					]
+							[
+						keys 1
+							0 1 0.1 0.5 1 0.960554 0.960554 1
+					]
+							[
+						keys 1
+							0 1 0.1 0.5 0.133333
+					]
+							[
+						keys 1
+							0 1 0.1 0.5 1 0.85098 0.85098 1
+					]
+							[
+						keys 1
+							0 1 0.1 0.5 0.396078
+					]
+							[
+						keys 1
+							0 1 0.1 0.5 0.9945 0.832646 0.832646 1
+					]
+							[
+						keys 1
+							0 1 0.1 0.5 0.435294
+					]
+							[
+						keys 1
+							0 1 0.1 0.5 0.929412 0.615686 0.615686 1
+					]
+							[
+						keys 1
+							0 1 0.1 0.5 0.729412
+					]
+							[
+						keys 1
+							0 1 0.1 0.5 0.92412 0.577132 0.577132 1
+					]
+							[
+						keys 1
+							0 1 0.1 0.5 0.760784
+					]
+							[
+						keys 1
+							0 1 0.1 0.5 0.87451 0.215686 0.215686 1
+					]
+							[
+						keys 1
+							0 1 0.1 0.5 1
+					]
+							[
+						keys 1
+							0 1 0.1 0.5 0.658824 0.015686 0.015686 1
+					]
+		
+					0
+											[
+						keys 1
+							0 1 0.1 0.5 3.972414
+					]
+							[
+						keys 1
+							0 1 0.1 0.5 0.05
+					]
+							[
+						keys 1
+							0 1 0.1 0.5 0
+					]
+							[
+						keys 1
+							0 1 0.1 0.5 1 1 1 0.501961
+					]
+		false 
+					-1
+				""
+				""
+
+		groups 0
+	]
+}

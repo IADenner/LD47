@@ -1,0 +1,4 @@
+hxcpp_api_level=400
+hxcpp_smart_strings=1
+no_console=1
+hxcpp=c:/haxetoolkit/hxcpp/4,1,1/

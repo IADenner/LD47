@@ -1,0 +1,7985 @@
+application/x-vnd.lm_mohodoc
+version 19
+### Created in Moho version 6.0, � 1999-2009 Smith Micro Software, Inc.
+### Created: Sat Oct 03 19:00:04 2020
+
+### static values
+dimensions 60 60
+frame_range 1 240
+fps 24
+back_color 234 234 234 255
+noise_grain 0
+allow_3d true
+depth_sort false
+distance_sort false
+depth_of_field false 2 1 0.4
+stereo_separation -1
+extra_swf_frame false
+soundtrack ""
+
+### styles
+
+### animated values
+camera_track
+[
+	keys 1
+		0 1 0.1 0.5 0 0 1.7321
+]
+camera_zoom
+[
+	keys 1
+		0 1 0.1 0.5 1
+]
+camera_roll
+[
+	keys 1
+		0 1 0.1 0.5 0
+]
+camera_pan_tilt
+[
+	keys 1
+		0 1 0.1 0.5 0 0
+]
+
+### layers
+layer_type 5
+{
+	### generic layer values
+	name "Layer 3"
+	quality_flags 2046
+	animated_layer_effects false
+	origin 0 0
+	parent_bone -2
+	visible true
+	render_only false
+	edit_only false
+	scale_compensation true
+	rotate_to_follow false
+	face_camera false
+	masking 0
+	blend_mode 0
+	camera_immune false
+	dof_immune false
+	timing_offset 0
+
+	### transforms
+	translation
+	[
+		keys 1
+			0 1 0.1 0.5 0 0 0
+	]
+	scale
+	[
+		keys 1
+			0 1 0.1 0.5 1 1 1
+	]
+	rotation_x
+	[
+		keys 1
+			0 1 0.1 0.5 0
+	]
+	rotation_y
+	[
+		keys 1
+			0 1 0.1 0.5 0
+	]
+	rotation_z
+	[
+		keys 1
+			0 1 0.1 0.5 0
+	]
+	flip_h
+	[
+		keys 1
+			0 1 0.1 0.5 false
+	]
+	flip_v
+	[
+		keys 1
+			0 1 0.1 0.5 false
+	]
+	shear
+	[
+		keys 1
+			0 1 0.1 0.5 0 0 0
+	]
+
+	### layer effects
+
+	### switch layer values
+	expanded true
+	switch_data ""
+	switch_interpolation false
+	switch_keys
+	[
+		keys 17
+			0 1 0.1 0.5 "square 10"
+			1 1 0.1 0.5 "blank"
+			2 1 0.1 0.5 "square"
+			3 1 0.1 0.5 "carriage conector 1"
+			4 1 0.1 0.5 "carriage conector 2"
+			5 1 0.1 0.5 "carriage conector 3"
+			6 1 0.1 0.5 "carriage conector 4"
+			7 1 0.1 0.5 "square 2"
+			8 1 0.1 0.5 "square 3"
+			9 1 0.1 0.5 "square 4"
+			10 1 0.1 0.5 "square 5"
+			11 1 0.1 0.5 "square 6"
+			12 1 0.1 0.5 "square 7"
+			13 1 0.1 0.5 "square 7"
+			14 1 0.1 0.5 "square 8"
+			15 1 0.1 0.5 "square 9"
+			16 1 0.1 0.5 "square 10"
+	]
+	skeleton
+	[
+		binding_mode 1
+		bones 0
+	]
+
+	### sub-layers
+	layer_type 1
+	{
+		### generic layer values
+		name "square"
+		quality_flags 2044
+		animated_layer_effects false
+		origin 0 0
+		parent_bone -1
+		visible true
+		render_only false
+		edit_only false
+		scale_compensation true
+		rotate_to_follow false
+		face_camera false
+		masking 0
+		blend_mode 0
+		camera_immune false
+		dof_immune false
+		timing_offset 0
+
+		### transforms
+		translation
+		[
+			keys 1
+				0 1 0.1 0.5 0 0 0
+		]
+		scale
+		[
+			keys 1
+				0 1 0.1 0.5 1 1 1
+		]
+		rotation_x
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		rotation_y
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		rotation_z
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		flip_h
+		[
+			keys 1
+				0 1 0.1 0.5 false
+		]
+		flip_v
+		[
+			keys 1
+				0 1 0.1 0.5 false
+		]
+		shear
+		[
+			keys 1
+				0 1 0.1 0.5 0 0 0
+		]
+
+		### layer effects
+
+		### mesh layer values
+		noisy_shapes false
+		noisy_lines false
+		animated_noise false
+		extra_sketchy true
+		noise_amp 0.016667
+		noise_scale 0.1
+		extra_lines 5
+		gap_filling false
+		exclude_lines_from_mask false
+		fill_texture ""
+		line_texture ""
+		mesh
+		[
+			points 4
+				[
+					keys 1
+						0 1 0.1 0.5 -1 1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.066667
+				]
+				-2
+				true
+				1
+					0 0 
+				[
+					keys 1
+						0 1 0.1 0.5 5 1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.066667
+				]
+				-2
+				true
+				1
+					0 1 
+				[
+					keys 1
+						0 1 0.1 0.5 5 -5
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.066667
+				]
+				-2
+				true
+				1
+					0 2 
+				[
+					keys 1
+						0 1 0.1 0.5 -1 -5
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.066667
+				]
+				-2
+				true
+				1
+					0 3 
+			curves 1
+				4 true
+					0 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+					1 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+					2 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+					3 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+			shapes 1
+				"" false true true true 
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0 0
+				]
+					4
+						0 0 0
+						0 1 0
+						0 2 0
+						0 3 0
+					""
+						false
+						[
+							keys 2
+								0 0 0.1 0.5 0.619608 0.509804 0.32549 1
+								6 1 0.1 0.5 0.619608 0.509804 0.32549 1
+						]
+						false 0.00823
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0 0 0 1
+						]
+						""
+						false
+						6.283185
+						0.25
+						true
+						true
+						0
+													[
+							keys 1
+								0 1 0.1 0.5 0.716542
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0.1
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0 0 0 0.501961
+						]
+		false 
+						0
+													[
+							keys 1
+								0 1 0.1 0.5 3.926991
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0.1
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 1 1 1 0.501961
+						]
+		false 
+						-1
+					""
+					""
+
+			groups 0
+		]
+	}
+	layer_type 1
+	{
+		### generic layer values
+		name "square 2"
+		quality_flags 2044
+		animated_layer_effects false
+		origin 0 0
+		parent_bone -1
+		visible true
+		render_only false
+		edit_only false
+		scale_compensation true
+		rotate_to_follow false
+		face_camera false
+		masking 0
+		blend_mode 0
+		camera_immune false
+		dof_immune false
+		timing_offset 0
+
+		### transforms
+		translation
+		[
+			keys 1
+				0 1 0.1 0.5 0 0 0
+		]
+		scale
+		[
+			keys 1
+				0 1 0.1 0.5 1 1 1
+		]
+		rotation_x
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		rotation_y
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		rotation_z
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		flip_h
+		[
+			keys 1
+				0 1 0.1 0.5 false
+		]
+		flip_v
+		[
+			keys 1
+				0 1 0.1 0.5 false
+		]
+		shear
+		[
+			keys 1
+				0 1 0.1 0.5 0 0 0
+		]
+
+		### layer effects
+
+		### mesh layer values
+		noisy_shapes false
+		noisy_lines false
+		animated_noise false
+		extra_sketchy true
+		noise_amp 0.016667
+		noise_scale 0.1
+		extra_lines 5
+		gap_filling false
+		exclude_lines_from_mask false
+		fill_texture ""
+		line_texture ""
+		mesh
+		[
+			points 4
+				[
+					keys 1
+						0 1 0.1 0.5 -3 1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.066667
+				]
+				-2
+				true
+				1
+					0 0 
+				[
+					keys 1
+						0 1 0.1 0.5 3 1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.066667
+				]
+				-2
+				true
+				1
+					0 1 
+				[
+					keys 1
+						0 1 0.1 0.5 3 -5
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.066667
+				]
+				-2
+				true
+				1
+					0 2 
+				[
+					keys 1
+						0 1 0.1 0.5 -3 -5
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.066667
+				]
+				-2
+				true
+				1
+					0 3 
+			curves 1
+				4 true
+					0 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+					1 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+					2 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+					3 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+			shapes 1
+				"" false true true true 
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0 0
+				]
+					4
+						0 0 0
+						0 1 0
+						0 2 0
+						0 3 0
+					""
+						false
+						[
+							keys 2
+								0 0 0.1 0.5 0.619608 0.509804 0.32549 1
+								6 1 0.1 0.5 0.619608 0.509804 0.32549 1
+						]
+						false 0.00823
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0 0 0 1
+						]
+						""
+						false
+						6.283185
+						0.25
+						true
+						true
+						0
+													[
+							keys 1
+								0 1 0.1 0.5 0.716542
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0.1
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0 0 0 0.501961
+						]
+		false 
+						0
+													[
+							keys 1
+								0 1 0.1 0.5 3.926991
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0.1
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 1 1 1 0.501961
+						]
+		false 
+						-1
+					""
+					""
+
+			groups 0
+		]
+	}
+	layer_type 1
+	{
+		### generic layer values
+		name "square 3"
+		quality_flags 2044
+		animated_layer_effects false
+		origin 0 0
+		parent_bone -1
+		visible true
+		render_only false
+		edit_only false
+		scale_compensation true
+		rotate_to_follow false
+		face_camera false
+		masking 0
+		blend_mode 0
+		camera_immune false
+		dof_immune false
+		timing_offset 0
+
+		### transforms
+		translation
+		[
+			keys 1
+				0 1 0.1 0.5 0 0 0
+		]
+		scale
+		[
+			keys 1
+				0 1 0.1 0.5 1 1 1
+		]
+		rotation_x
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		rotation_y
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		rotation_z
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		flip_h
+		[
+			keys 1
+				0 1 0.1 0.5 false
+		]
+		flip_v
+		[
+			keys 1
+				0 1 0.1 0.5 false
+		]
+		shear
+		[
+			keys 1
+				0 1 0.1 0.5 0 0 0
+		]
+
+		### layer effects
+
+		### mesh layer values
+		noisy_shapes false
+		noisy_lines false
+		animated_noise false
+		extra_sketchy true
+		noise_amp 0.016667
+		noise_scale 0.1
+		extra_lines 5
+		gap_filling false
+		exclude_lines_from_mask false
+		fill_texture ""
+		line_texture ""
+		mesh
+		[
+			points 4
+				[
+					keys 1
+						0 1 0.1 0.5 -5 1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.066667
+				]
+				-2
+				true
+				1
+					0 0 
+				[
+					keys 1
+						0 1 0.1 0.5 1 1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.066667
+				]
+				-2
+				true
+				1
+					0 1 
+				[
+					keys 1
+						0 1 0.1 0.5 1 -5
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.066667
+				]
+				-2
+				true
+				1
+					0 2 
+				[
+					keys 1
+						0 1 0.1 0.5 -5 -5
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.066667
+				]
+				-2
+				true
+				1
+					0 3 
+			curves 1
+				4 true
+					0 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+					1 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+					2 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+					3 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+			shapes 1
+				"" false true true true 
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0 0
+				]
+					4
+						0 0 0
+						0 1 0
+						0 2 0
+						0 3 0
+					""
+						false
+						[
+							keys 2
+								0 0 0.1 0.5 0.619608 0.509804 0.32549 1
+								6 1 0.1 0.5 0.619608 0.509804 0.32549 1
+						]
+						false 0.00823
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0 0 0 1
+						]
+						""
+						false
+						6.283185
+						0.25
+						true
+						true
+						0
+													[
+							keys 1
+								0 1 0.1 0.5 0.716542
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0.1
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0 0 0 0.501961
+						]
+		false 
+						0
+													[
+							keys 1
+								0 1 0.1 0.5 3.926991
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0.1
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 1 1 1 0.501961
+						]
+		false 
+						-1
+					""
+					""
+
+			groups 0
+		]
+	}
+	layer_type 1
+	{
+		### generic layer values
+		name "square 4"
+		quality_flags 2044
+		animated_layer_effects false
+		origin 0 0
+		parent_bone -1
+		visible true
+		render_only false
+		edit_only false
+		scale_compensation true
+		rotate_to_follow false
+		face_camera false
+		masking 0
+		blend_mode 0
+		camera_immune false
+		dof_immune false
+		timing_offset 0
+
+		### transforms
+		translation
+		[
+			keys 1
+				0 1 0.1 0.5 0 0 0
+		]
+		scale
+		[
+			keys 1
+				0 1 0.1 0.5 1 1 1
+		]
+		rotation_x
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		rotation_y
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		rotation_z
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		flip_h
+		[
+			keys 1
+				0 1 0.1 0.5 false
+		]
+		flip_v
+		[
+			keys 1
+				0 1 0.1 0.5 false
+		]
+		shear
+		[
+			keys 1
+				0 1 0.1 0.5 0 0 0
+		]
+
+		### layer effects
+
+		### mesh layer values
+		noisy_shapes false
+		noisy_lines false
+		animated_noise false
+		extra_sketchy true
+		noise_amp 0.016667
+		noise_scale 0.1
+		extra_lines 5
+		gap_filling false
+		exclude_lines_from_mask false
+		fill_texture ""
+		line_texture ""
+		mesh
+		[
+			points 4
+				[
+					keys 1
+						0 1 0.1 0.5 -5 3
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.066667
+				]
+				-2
+				true
+				1
+					0 0 
+				[
+					keys 1
+						0 1 0.1 0.5 1 3
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.066667
+				]
+				-2
+				true
+				1
+					0 1 
+				[
+					keys 1
+						0 1 0.1 0.5 1 -3
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.066667
+				]
+				-2
+				true
+				1
+					0 2 
+				[
+					keys 1
+						0 1 0.1 0.5 -5 -3
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.066667
+				]
+				-2
+				true
+				1
+					0 3 
+			curves 1
+				4 true
+					0 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+					1 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+					2 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+					3 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+			shapes 1
+				"" false true true true 
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0 0
+				]
+					4
+						0 0 0
+						0 1 0
+						0 2 0
+						0 3 0
+					""
+						false
+						[
+							keys 2
+								0 0 0.1 0.5 0.619608 0.509804 0.32549 1
+								6 1 0.1 0.5 0.619608 0.509804 0.32549 1
+						]
+						false 0.00823
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0 0 0 1
+						]
+						""
+						false
+						6.283185
+						0.25
+						true
+						true
+						0
+													[
+							keys 1
+								0 1 0.1 0.5 0.716542
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0.1
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0 0 0 0.501961
+						]
+		false 
+						0
+													[
+							keys 1
+								0 1 0.1 0.5 3.926991
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0.1
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 1 1 1 0.501961
+						]
+		false 
+						-1
+					""
+					""
+
+			groups 0
+		]
+	}
+	layer_type 1
+	{
+		### generic layer values
+		name "square 5"
+		quality_flags 2044
+		animated_layer_effects false
+		origin 0 0
+		parent_bone -1
+		visible true
+		render_only false
+		edit_only false
+		scale_compensation true
+		rotate_to_follow false
+		face_camera false
+		masking 0
+		blend_mode 0
+		camera_immune false
+		dof_immune false
+		timing_offset 0
+
+		### transforms
+		translation
+		[
+			keys 1
+				0 1 0.1 0.5 0 0 0
+		]
+		scale
+		[
+			keys 1
+				0 1 0.1 0.5 1 1 1
+		]
+		rotation_x
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		rotation_y
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		rotation_z
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		flip_h
+		[
+			keys 1
+				0 1 0.1 0.5 false
+		]
+		flip_v
+		[
+			keys 1
+				0 1 0.1 0.5 false
+		]
+		shear
+		[
+			keys 1
+				0 1 0.1 0.5 0 0 0
+		]
+
+		### layer effects
+
+		### mesh layer values
+		noisy_shapes false
+		noisy_lines false
+		animated_noise false
+		extra_sketchy true
+		noise_amp 0.016667
+		noise_scale 0.1
+		extra_lines 5
+		gap_filling false
+		exclude_lines_from_mask false
+		fill_texture ""
+		line_texture ""
+		mesh
+		[
+			points 4
+				[
+					keys 1
+						0 1 0.1 0.5 -5 3
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.066667
+				]
+				-2
+				true
+				1
+					0 0 
+				[
+					keys 1
+						0 1 0.1 0.5 1 3
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.066667
+				]
+				-2
+				true
+				1
+					0 1 
+				[
+					keys 1
+						0 1 0.1 0.5 1 -3
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.066667
+				]
+				-2
+				true
+				1
+					0 2 
+				[
+					keys 1
+						0 1 0.1 0.5 -5 -3
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.066667
+				]
+				-2
+				true
+				1
+					0 3 
+			curves 1
+				4 true
+					0 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+					1 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+					2 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+					3 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+			shapes 1
+				"" false true true true 
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0 0
+				]
+					4
+						0 0 0
+						0 1 0
+						0 2 0
+						0 3 0
+					""
+						false
+						[
+							keys 2
+								0 0 0.1 0.5 0.619608 0.509804 0.32549 1
+								6 1 0.1 0.5 0.619608 0.509804 0.32549 1
+						]
+						false 0.00823
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0 0 0 1
+						]
+						""
+						false
+						6.283185
+						0.25
+						true
+						true
+						0
+													[
+							keys 1
+								0 1 0.1 0.5 0.716542
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0.1
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0 0 0 0.501961
+						]
+		false 
+						0
+													[
+							keys 1
+								0 1 0.1 0.5 3.926991
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0.1
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 1 1 1 0.501961
+						]
+		false 
+						-1
+					""
+					""
+
+			groups 0
+		]
+	}
+	layer_type 1
+	{
+		### generic layer values
+		name "square 6"
+		quality_flags 2044
+		animated_layer_effects false
+		origin 0 0
+		parent_bone -1
+		visible true
+		render_only false
+		edit_only false
+		scale_compensation true
+		rotate_to_follow false
+		face_camera false
+		masking 0
+		blend_mode 0
+		camera_immune false
+		dof_immune false
+		timing_offset 0
+
+		### transforms
+		translation
+		[
+			keys 1
+				0 1 0.1 0.5 0 0 0
+		]
+		scale
+		[
+			keys 1
+				0 1 0.1 0.5 1 1 1
+		]
+		rotation_x
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		rotation_y
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		rotation_z
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		flip_h
+		[
+			keys 1
+				0 1 0.1 0.5 false
+		]
+		flip_v
+		[
+			keys 1
+				0 1 0.1 0.5 false
+		]
+		shear
+		[
+			keys 1
+				0 1 0.1 0.5 0 0 0
+		]
+
+		### layer effects
+
+		### mesh layer values
+		noisy_shapes false
+		noisy_lines false
+		animated_noise false
+		extra_sketchy true
+		noise_amp 0.016667
+		noise_scale 0.1
+		extra_lines 5
+		gap_filling false
+		exclude_lines_from_mask false
+		fill_texture ""
+		line_texture ""
+		mesh
+		[
+			points 4
+				[
+					keys 1
+						0 1 0.1 0.5 -5 5
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.066667
+				]
+				-2
+				true
+				1
+					0 0 
+				[
+					keys 1
+						0 1 0.1 0.5 1 5
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.066667
+				]
+				-2
+				true
+				1
+					0 1 
+				[
+					keys 1
+						0 1 0.1 0.5 1 -1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.066667
+				]
+				-2
+				true
+				1
+					0 2 
+				[
+					keys 1
+						0 1 0.1 0.5 -5 -1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.066667
+				]
+				-2
+				true
+				1
+					0 3 
+			curves 1
+				4 true
+					0 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+					1 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+					2 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+					3 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+			shapes 1
+				"" false true true true 
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0 0
+				]
+					4
+						0 0 0
+						0 1 0
+						0 2 0
+						0 3 0
+					""
+						false
+						[
+							keys 2
+								0 0 0.1 0.5 0.619608 0.509804 0.32549 1
+								6 1 0.1 0.5 0.619608 0.509804 0.32549 1
+						]
+						false 0.00823
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0 0 0 1
+						]
+						""
+						false
+						6.283185
+						0.25
+						true
+						true
+						0
+													[
+							keys 1
+								0 1 0.1 0.5 0.716542
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0.1
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0 0 0 0.501961
+						]
+		false 
+						0
+													[
+							keys 1
+								0 1 0.1 0.5 3.926991
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0.1
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 1 1 1 0.501961
+						]
+		false 
+						-1
+					""
+					""
+
+			groups 0
+		]
+	}
+	layer_type 1
+	{
+		### generic layer values
+		name "square 7"
+		quality_flags 2044
+		animated_layer_effects false
+		origin 0 0
+		parent_bone -1
+		visible true
+		render_only false
+		edit_only false
+		scale_compensation true
+		rotate_to_follow false
+		face_camera false
+		masking 0
+		blend_mode 0
+		camera_immune false
+		dof_immune false
+		timing_offset 0
+
+		### transforms
+		translation
+		[
+			keys 1
+				0 1 0.1 0.5 0 0 0
+		]
+		scale
+		[
+			keys 1
+				0 1 0.1 0.5 1 1 1
+		]
+		rotation_x
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		rotation_y
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		rotation_z
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		flip_h
+		[
+			keys 1
+				0 1 0.1 0.5 false
+		]
+		flip_v
+		[
+			keys 1
+				0 1 0.1 0.5 false
+		]
+		shear
+		[
+			keys 1
+				0 1 0.1 0.5 0 0 0
+		]
+
+		### layer effects
+
+		### mesh layer values
+		noisy_shapes false
+		noisy_lines false
+		animated_noise false
+		extra_sketchy true
+		noise_amp 0.016667
+		noise_scale 0.1
+		extra_lines 5
+		gap_filling false
+		exclude_lines_from_mask false
+		fill_texture ""
+		line_texture ""
+		mesh
+		[
+			points 4
+				[
+					keys 1
+						0 1 0.1 0.5 -3 5
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.066667
+				]
+				-2
+				true
+				1
+					0 0 
+				[
+					keys 1
+						0 1 0.1 0.5 3 5
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.066667
+				]
+				-2
+				true
+				1
+					0 1 
+				[
+					keys 1
+						0 1 0.1 0.5 3 -1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.066667
+				]
+				-2
+				true
+				1
+					0 2 
+				[
+					keys 1
+						0 1 0.1 0.5 -3 -1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.066667
+				]
+				-2
+				true
+				1
+					0 3 
+			curves 1
+				4 true
+					0 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+					1 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+					2 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+					3 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+			shapes 1
+				"" false true true true 
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0 0
+				]
+					4
+						0 0 0
+						0 1 0
+						0 2 0
+						0 3 0
+					""
+						false
+						[
+							keys 2
+								0 0 0.1 0.5 0.619608 0.509804 0.32549 1
+								6 1 0.1 0.5 0.619608 0.509804 0.32549 1
+						]
+						false 0.00823
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0 0 0 1
+						]
+						""
+						false
+						6.283185
+						0.25
+						true
+						true
+						0
+													[
+							keys 1
+								0 1 0.1 0.5 0.716542
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0.1
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0 0 0 0.501961
+						]
+		false 
+						0
+													[
+							keys 1
+								0 1 0.1 0.5 3.926991
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0.1
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 1 1 1 0.501961
+						]
+		false 
+						-1
+					""
+					""
+
+			groups 0
+		]
+	}
+	layer_type 1
+	{
+		### generic layer values
+		name "square 8"
+		quality_flags 2044
+		animated_layer_effects false
+		origin 0 0
+		parent_bone -1
+		visible true
+		render_only false
+		edit_only false
+		scale_compensation true
+		rotate_to_follow false
+		face_camera false
+		masking 0
+		blend_mode 0
+		camera_immune false
+		dof_immune false
+		timing_offset 0
+
+		### transforms
+		translation
+		[
+			keys 1
+				0 1 0.1 0.5 0 0 0
+		]
+		scale
+		[
+			keys 1
+				0 1 0.1 0.5 1 1 1
+		]
+		rotation_x
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		rotation_y
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		rotation_z
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		flip_h
+		[
+			keys 1
+				0 1 0.1 0.5 false
+		]
+		flip_v
+		[
+			keys 1
+				0 1 0.1 0.5 false
+		]
+		shear
+		[
+			keys 1
+				0 1 0.1 0.5 0 0 0
+		]
+
+		### layer effects
+
+		### mesh layer values
+		noisy_shapes false
+		noisy_lines false
+		animated_noise false
+		extra_sketchy true
+		noise_amp 0.016667
+		noise_scale 0.1
+		extra_lines 5
+		gap_filling false
+		exclude_lines_from_mask false
+		fill_texture ""
+		line_texture ""
+		mesh
+		[
+			points 4
+				[
+					keys 1
+						0 1 0.1 0.5 -1 5
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.066667
+				]
+				-2
+				true
+				1
+					0 0 
+				[
+					keys 1
+						0 1 0.1 0.5 5 5
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.066667
+				]
+				-2
+				true
+				1
+					0 1 
+				[
+					keys 1
+						0 1 0.1 0.5 5 -1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.066667
+				]
+				-2
+				true
+				1
+					0 2 
+				[
+					keys 1
+						0 1 0.1 0.5 -1 -1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.066667
+				]
+				-2
+				true
+				1
+					0 3 
+			curves 1
+				4 true
+					0 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+					1 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+					2 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+					3 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+			shapes 1
+				"" false true true true 
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0 0
+				]
+					4
+						0 0 0
+						0 1 0
+						0 2 0
+						0 3 0
+					""
+						false
+						[
+							keys 2
+								0 0 0.1 0.5 0.619608 0.509804 0.32549 1
+								6 1 0.1 0.5 0.619608 0.509804 0.32549 1
+						]
+						false 0.00823
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0 0 0 1
+						]
+						""
+						false
+						6.283185
+						0.25
+						true
+						true
+						0
+													[
+							keys 1
+								0 1 0.1 0.5 0.716542
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0.1
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0 0 0 0.501961
+						]
+		false 
+						0
+													[
+							keys 1
+								0 1 0.1 0.5 3.926991
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0.1
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 1 1 1 0.501961
+						]
+		false 
+						-1
+					""
+					""
+
+			groups 0
+		]
+	}
+	layer_type 1
+	{
+		### generic layer values
+		name "square 9"
+		quality_flags 2044
+		animated_layer_effects false
+		origin 0 0
+		parent_bone -1
+		visible true
+		render_only false
+		edit_only false
+		scale_compensation true
+		rotate_to_follow false
+		face_camera false
+		masking 0
+		blend_mode 0
+		camera_immune false
+		dof_immune false
+		timing_offset 0
+
+		### transforms
+		translation
+		[
+			keys 1
+				0 1 0.1 0.5 0 0 0
+		]
+		scale
+		[
+			keys 1
+				0 1 0.1 0.5 1 1 1
+		]
+		rotation_x
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		rotation_y
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		rotation_z
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		flip_h
+		[
+			keys 1
+				0 1 0.1 0.5 false
+		]
+		flip_v
+		[
+			keys 1
+				0 1 0.1 0.5 false
+		]
+		shear
+		[
+			keys 1
+				0 1 0.1 0.5 0 0 0
+		]
+
+		### layer effects
+
+		### mesh layer values
+		noisy_shapes false
+		noisy_lines false
+		animated_noise false
+		extra_sketchy true
+		noise_amp 0.016667
+		noise_scale 0.1
+		extra_lines 5
+		gap_filling false
+		exclude_lines_from_mask false
+		fill_texture ""
+		line_texture ""
+		mesh
+		[
+			points 4
+				[
+					keys 1
+						0 1 0.1 0.5 -3 3
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.066667
+				]
+				-2
+				true
+				1
+					0 0 
+				[
+					keys 1
+						0 1 0.1 0.5 3 3
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.066667
+				]
+				-2
+				true
+				1
+					0 1 
+				[
+					keys 1
+						0 1 0.1 0.5 3 -3
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.066667
+				]
+				-2
+				true
+				1
+					0 2 
+				[
+					keys 1
+						0 1 0.1 0.5 -3 -3
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.066667
+				]
+				-2
+				true
+				1
+					0 3 
+			curves 1
+				4 true
+					0 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+					1 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+					2 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+					3 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+			shapes 1
+				"" false true true true 
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0 0
+				]
+					4
+						0 0 0
+						0 1 0
+						0 2 0
+						0 3 0
+					""
+						false
+						[
+							keys 2
+								0 0 0.1 0.5 0.619608 0.509804 0.32549 1
+								6 1 0.1 0.5 0.619608 0.509804 0.32549 1
+						]
+						false 0.00823
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0 0 0 1
+						]
+						""
+						false
+						6.283185
+						0.25
+						true
+						true
+						0
+													[
+							keys 1
+								0 1 0.1 0.5 0.716542
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0.1
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0 0 0 0.501961
+						]
+		false 
+						0
+													[
+							keys 1
+								0 1 0.1 0.5 3.926991
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0.1
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 1 1 1 0.501961
+						]
+		false 
+						-1
+					""
+					""
+
+			groups 0
+		]
+	}
+	layer_type 1
+	{
+		### generic layer values
+		name "square 10"
+		quality_flags 2044
+		animated_layer_effects false
+		origin 0 0
+		parent_bone -1
+		visible true
+		render_only false
+		edit_only false
+		scale_compensation true
+		rotate_to_follow false
+		face_camera false
+		masking 0
+		blend_mode 0
+		camera_immune false
+		dof_immune false
+		timing_offset 0
+
+		### transforms
+		translation
+		[
+			keys 1
+				0 1 0.1 0.5 0 0 0
+		]
+		scale
+		[
+			keys 1
+				0 1 0.1 0.5 1 1 1
+		]
+		rotation_x
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		rotation_y
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		rotation_z
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		flip_h
+		[
+			keys 1
+				0 1 0.1 0.5 false
+		]
+		flip_v
+		[
+			keys 1
+				0 1 0.1 0.5 false
+		]
+		shear
+		[
+			keys 1
+				0 1 0.1 0.5 0 0 0
+		]
+
+		### layer effects
+
+		### mesh layer values
+		noisy_shapes false
+		noisy_lines false
+		animated_noise false
+		extra_sketchy true
+		noise_amp 0.016667
+		noise_scale 0.1
+		extra_lines 5
+		gap_filling false
+		exclude_lines_from_mask false
+		fill_texture ""
+		line_texture ""
+		mesh
+		[
+			points 4
+				[
+					keys 1
+						0 1 0.1 0.5 -1 3
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.066667
+				]
+				-2
+				true
+				1
+					0 0 
+				[
+					keys 1
+						0 1 0.1 0.5 5 3
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.066667
+				]
+				-2
+				true
+				1
+					0 1 
+				[
+					keys 1
+						0 1 0.1 0.5 5 -3
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.066667
+				]
+				-2
+				true
+				1
+					0 2 
+				[
+					keys 1
+						0 1 0.1 0.5 -1 -3
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.066667
+				]
+				-2
+				true
+				1
+					0 3 
+			curves 1
+				4 true
+					0 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+					1 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+					2 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+					3 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+			shapes 1
+				"" false true true true 
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0 0
+				]
+					4
+						0 0 0
+						0 1 0
+						0 2 0
+						0 3 0
+					""
+						false
+						[
+							keys 2
+								0 0 0.1 0.5 0.619608 0.509804 0.32549 1
+								6 1 0.1 0.5 0.619608 0.509804 0.32549 1
+						]
+						false 0.00823
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0 0 0 1
+						]
+						""
+						false
+						6.283185
+						0.25
+						true
+						true
+						0
+													[
+							keys 1
+								0 1 0.1 0.5 0.716542
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0.1
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0 0 0 0.501961
+						]
+		false 
+						0
+													[
+							keys 1
+								0 1 0.1 0.5 3.926991
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0.1
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 1 1 1 0.501961
+						]
+		false 
+						-1
+					""
+					""
+
+			groups 0
+		]
+	}
+	layer_type 1
+	{
+		### generic layer values
+		name "blank"
+		quality_flags 2044
+		animated_layer_effects false
+		origin 0 0
+		parent_bone -1
+		visible true
+		render_only false
+		edit_only false
+		scale_compensation true
+		rotate_to_follow false
+		face_camera false
+		masking 0
+		blend_mode 0
+		camera_immune false
+		dof_immune false
+		timing_offset 0
+
+		### transforms
+		translation
+		[
+			keys 1
+				0 1 0.1 0.5 0 0 0
+		]
+		scale
+		[
+			keys 1
+				0 1 0.1 0.5 1 1 1
+		]
+		rotation_x
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		rotation_y
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		rotation_z
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		flip_h
+		[
+			keys 1
+				0 1 0.1 0.5 false
+		]
+		flip_v
+		[
+			keys 1
+				0 1 0.1 0.5 false
+		]
+		shear
+		[
+			keys 1
+				0 1 0.1 0.5 0 0 0
+		]
+
+		### layer effects
+
+		### mesh layer values
+		noisy_shapes false
+		noisy_lines false
+		animated_noise false
+		extra_sketchy true
+		noise_amp 0.016667
+		noise_scale 0.1
+		extra_lines 5
+		gap_filling false
+		exclude_lines_from_mask false
+		fill_texture ""
+		line_texture ""
+		mesh
+		[
+			points 0
+			curves 0
+			shapes 0
+			groups 0
+		]
+	}
+	layer_type 1
+	{
+		### generic layer values
+		name "carriage conector 1"
+		quality_flags 2044
+		animated_layer_effects false
+		origin 0 0
+		parent_bone -1
+		visible true
+		render_only false
+		edit_only false
+		scale_compensation true
+		rotate_to_follow false
+		face_camera false
+		masking 0
+		blend_mode 0
+		camera_immune false
+		dof_immune false
+		timing_offset 0
+
+		### transforms
+		translation
+		[
+			keys 1
+				0 1 0.1 0.5 0 0 0
+		]
+		scale
+		[
+			keys 1
+				0 1 0.1 0.5 1 1 1
+		]
+		rotation_x
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		rotation_y
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		rotation_z
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		flip_h
+		[
+			keys 1
+				0 1 0.1 0.5 false
+		]
+		flip_v
+		[
+			keys 1
+				0 1 0.1 0.5 false
+		]
+		shear
+		[
+			keys 1
+				0 1 0.1 0.5 0 0 0
+		]
+
+		### layer effects
+
+		### mesh layer values
+		noisy_shapes false
+		noisy_lines false
+		animated_noise false
+		extra_sketchy true
+		noise_amp 0.1
+		noise_scale 0.8
+		extra_lines 5
+		gap_filling false
+		exclude_lines_from_mask false
+		fill_texture ""
+		line_texture ""
+		mesh
+		[
+			points 44
+				[
+					keys 1
+						0 1 0.1 0.5 -0.993325 2.943213
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 0 
+				[
+					keys 1
+						0 1 0.1 0.5 2.925701 2.943213
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 11 
+				[
+					keys 1
+						0 1 0.1 0.5 2.925701 -0.975813
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 22 
+				[
+					keys 1
+						0 1 0.1 0.5 -0.986139 -1.004555
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 33 
+				[
+					keys 1
+						0 1 0.1 0.5 -0.994012 2.851374
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 43 
+				[
+					keys 1
+						0 1 0.1 0.5 -0.994561 2.600872
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 42 
+				[
+					keys 1
+						0 1 0.1 0.5 -0.994972 2.22697
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 41 
+				[
+					keys 1
+						0 1 0.1 0.5 -0.995249 1.764919
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 40 
+				[
+					keys 1
+						0 1 0.1 0.5 -0.995386 1.249982
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 39 
+				[
+					keys 1
+						0 1 0.1 0.5 -0.995386 0.717418
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 38 
+				[
+					keys 1
+						0 1 0.1 0.5 -0.995249 0.202482
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 37 
+				[
+					keys 1
+						0 1 0.1 0.5 -0.994974 -0.25957
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 36 
+				[
+					keys 1
+						0 1 0.1 0.5 -0.994561 -0.633472
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 35 
+				[
+					keys 1
+						0 1 0.1 0.5 -0.994012 -0.883974
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 34 
+				[
+					keys 1
+						0 1 0.1 0.5 -0.901486 -0.812854
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				2
+					0 32 5 1 
+				[
+					keys 1
+						0 1 0.1 0.5 -0.650984 -0.977049
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 31 
+				[
+					keys 1
+						0 1 0.1 0.5 -0.277081 -0.813735
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				2
+					0 30 1 1 
+				[
+					keys 1
+						0 1 0.1 0.5 0.18497 -0.977737
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 29 
+				[
+					keys 1
+						0 1 0.1 0.5 0.699906 -0.814112
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				2
+					0 28 2 0 
+				[
+					keys 1
+						0 1 0.1 0.5 1.23247 -0.977874
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 27 
+				[
+					keys 1
+						0 1 0.1 0.5 1.747407 -0.813986
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				2
+					0 26 3 1 
+				[
+					keys 1
+						0 1 0.1 0.5 2.209458 -0.977462
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 25 
+				[
+					keys 1
+						0 1 0.1 0.5 2.58336 -0.813357
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				2
+					0 24 4 0 
+				[
+					keys 1
+						0 1 0.1 0.5 2.833862 -0.9765
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 23 
+				[
+					keys 1
+						0 1 0.1 0.5 2.926389 -0.883974
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 21 
+				[
+					keys 1
+						0 1 0.1 0.5 2.926937 -0.633472
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 20 
+				[
+					keys 1
+						0 1 0.1 0.5 2.927349 -0.25957
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 19 
+				[
+					keys 1
+						0 1 0.1 0.5 2.927625 0.202482
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 18 
+				[
+					keys 1
+						0 1 0.1 0.5 2.927763 0.717418
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 17 
+				[
+					keys 1
+						0 1 0.1 0.5 2.927763 1.249982
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 16 
+				[
+					keys 1
+						0 1 0.1 0.5 2.927625 1.764919
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 15 
+				[
+					keys 1
+						0 1 0.1 0.5 2.927351 2.22697
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 14 
+				[
+					keys 1
+						0 1 0.1 0.5 2.926937 2.600872
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 13 
+				[
+					keys 1
+						0 1 0.1 0.5 2.926389 2.851374
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 12 
+				[
+					keys 1
+						0 1 0.1 0.5 2.833862 2.943901
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 10 
+				[
+					keys 1
+						0 1 0.1 0.5 2.58336 2.780757
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				2
+					0 9 4 1 
+				[
+					keys 1
+						0 1 0.1 0.5 2.209458 2.944861
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 8 
+				[
+					keys 1
+						0 1 0.1 0.5 1.747407 2.781386
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				2
+					0 7 3 0 
+				[
+					keys 1
+						0 1 0.1 0.5 1.23247 2.945274
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 6 
+				[
+					keys 1
+						0 1 0.1 0.5 0.699906 2.781512
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				2
+					0 5 2 1 
+				[
+					keys 1
+						0 1 0.1 0.5 0.18497 2.945137
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 4 
+				[
+					keys 1
+						0 1 0.1 0.5 -0.277081 2.781136
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				2
+					0 3 1 0 
+				[
+					keys 1
+						0 1 0.1 0.5 -0.650984 2.944449
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 2 
+				[
+					keys 1
+						0 1 0.1 0.5 -0.901486 2.780254
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				2
+					0 1 5 0 
+			curves 6
+				44 true
+					0 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+					43 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					42 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					41 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					40 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					39 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					38 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					37 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					36 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					35 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					34 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					1 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+					33 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					32 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					31 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					30 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					29 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					28 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					27 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					26 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					25 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					24 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					2 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+					23 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					22 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					21 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					20 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					19 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					18 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					17 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					16 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					15 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					14 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					3 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+					13 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					12 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					11 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					10 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					9 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					8 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					7 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					6 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					5 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					4 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+				2 false
+					41 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					16 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+				2 false
+					18 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					39 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+				2 false
+					37 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					20 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+				2 false
+					22 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					35 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+				2 false
+					43 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					14 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+			shapes 7
+				"" false true true true 
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0 0
+				]
+					44
+						0 0 0
+						0 11 0
+						0 22 0
+						0 33 0
+						0 43 0
+						0 42 0
+						0 41 0
+						0 40 0
+						0 39 0
+						0 38 0
+						0 37 0
+						0 36 0
+						0 35 0
+						0 34 0
+						0 32 0
+						0 31 0
+						0 30 0
+						0 29 0
+						0 28 0
+						0 27 0
+						0 26 0
+						0 25 0
+						0 24 0
+						0 23 0
+						0 21 0
+						0 20 0
+						0 19 0
+						0 18 0
+						0 17 0
+						0 16 0
+						0 15 0
+						0 14 0
+						0 13 0
+						0 12 0
+						0 10 0
+						0 9 0
+						0 8 0
+						0 7 0
+						0 6 0
+						0 5 0
+						0 4 0
+						0 3 0
+						0 2 0
+						0 1 0
+					""
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0.266667 0.266667 0.266667 1
+						]
+						false 0.066667
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0 0 0 1
+						]
+						""
+						false
+						6.283185
+						0.25
+						true
+						true
+						0
+													[
+							keys 1
+								0 1 0.1 0.5 0.716542
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0.066667
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0 0 0 0.501961
+						]
+		false 
+						-1
+						-1
+					""
+					""
+
+				"" false true true true 
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0 0
+				]
+					14
+						0 0 0
+						0 32 0
+						0 33 0
+						0 34 0
+						0 35 0
+						0 36 0
+						0 37 0
+						0 38 0
+						0 39 0
+						0 40 0
+						0 41 0
+						0 42 0
+						0 43 0
+						5 0 0
+					""
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0.266667 0.266667 0.266667 1
+						]
+						false 0.066667
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0 0 0 1
+						]
+						""
+						false
+						6.283185
+						0.25
+						true
+						true
+						-1
+						-1
+						-1
+					""
+					""
+
+				"" false true true true 
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0 0
+				]
+					6
+						0 1 0
+						0 2 0
+						0 30 0
+						0 31 0
+						1 0 0
+						5 0 0
+					""
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0.266667 0.266667 0.266667 1
+						]
+						false 0.066667
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0 0 0 1
+						]
+						""
+						false
+						6.283185
+						0.25
+						true
+						true
+						0
+													[
+							keys 1
+								0 1 0.1 0.5 0.716542
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0.066667
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0 0 0 0.501961
+						]
+		false 
+						-1
+						-1
+					""
+					""
+
+				"" false true true true 
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0 0
+				]
+					6
+						0 3 0
+						0 4 0
+						0 28 0
+						0 29 0
+						1 0 0
+						2 0 0
+					""
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0.266667 0.266667 0.266667 1
+						]
+						false 0.066667
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0 0 0 1
+						]
+						""
+						false
+						6.283185
+						0.25
+						true
+						true
+						0
+													[
+							keys 1
+								0 1 0.1 0.5 0.716542
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0.066667
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0 0 0 0.501961
+						]
+		false 
+						-1
+						-1
+					""
+					""
+
+				"" false true true true 
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0 0
+				]
+					6
+						0 5 0
+						0 6 0
+						0 26 0
+						0 27 0
+						2 0 0
+						3 0 0
+					""
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0.266667 0.266667 0.266667 1
+						]
+						false 0.066667
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0 0 0 1
+						]
+						""
+						false
+						6.283185
+						0.25
+						true
+						true
+						0
+													[
+							keys 1
+								0 1 0.1 0.5 0.716542
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0.066667
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0 0 0 0.501961
+						]
+		false 
+						-1
+						-1
+					""
+					""
+
+				"" false true true true 
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0 0
+				]
+					6
+						0 7 0
+						0 8 0
+						0 24 0
+						0 25 0
+						3 0 0
+						4 0 0
+					""
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0.266667 0.266667 0.266667 1
+						]
+						false 0.066667
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0 0 0 1
+						]
+						""
+						false
+						6.283185
+						0.25
+						true
+						true
+						0
+													[
+							keys 1
+								0 1 0.1 0.5 0.716542
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0.066667
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0 0 0 0.501961
+						]
+		false 
+						-1
+						-1
+					""
+					""
+
+				"" false true true true 
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0 0
+				]
+					16
+						0 9 0
+						0 10 0
+						0 11 0
+						0 12 0
+						0 13 0
+						0 14 0
+						0 15 0
+						0 16 0
+						0 17 0
+						0 18 0
+						0 19 0
+						0 20 0
+						0 21 0
+						0 22 0
+						0 23 0
+						4 0 0
+					""
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0.266667 0.266667 0.266667 1
+						]
+						false 0.066667
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0 0 0 1
+						]
+						""
+						false
+						6.283185
+						0.25
+						true
+						true
+						0
+													[
+							keys 1
+								0 1 0.1 0.5 0.716542
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0.066667
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0 0 0 0.501961
+						]
+		false 
+						-1
+						-1
+					""
+					""
+
+			groups 0
+		]
+	}
+	layer_type 1
+	{
+		### generic layer values
+		name "carriage conector 2"
+		quality_flags 2044
+		animated_layer_effects false
+		origin 0 0
+		parent_bone -1
+		visible true
+		render_only false
+		edit_only false
+		scale_compensation true
+		rotate_to_follow false
+		face_camera false
+		masking 0
+		blend_mode 0
+		camera_immune false
+		dof_immune false
+		timing_offset 0
+
+		### transforms
+		translation
+		[
+			keys 1
+				0 1 0.1 0.5 0 0 0
+		]
+		scale
+		[
+			keys 1
+				0 1 0.1 0.5 1 1 1
+		]
+		rotation_x
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		rotation_y
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		rotation_z
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		flip_h
+		[
+			keys 1
+				0 1 0.1 0.5 false
+		]
+		flip_v
+		[
+			keys 1
+				0 1 0.1 0.5 false
+		]
+		shear
+		[
+			keys 1
+				0 1 0.1 0.5 0 0 0
+		]
+
+		### layer effects
+
+		### mesh layer values
+		noisy_shapes false
+		noisy_lines false
+		animated_noise false
+		extra_sketchy true
+		noise_amp 0.1
+		noise_scale 0.8
+		extra_lines 5
+		gap_filling false
+		exclude_lines_from_mask false
+		fill_texture ""
+		line_texture ""
+		mesh
+		[
+			points 44
+				[
+					keys 1
+						0 1 0.1 0.5 -0.997939 0.892462
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 0 
+				[
+					keys 1
+						0 1 0.1 0.5 2.921087 0.892462
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 11 
+				[
+					keys 1
+						0 1 0.1 0.5 2.921087 -3.026564
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 22 
+				[
+					keys 1
+						0 1 0.1 0.5 -0.990753 -3.055306
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 33 
+				[
+					keys 1
+						0 1 0.1 0.5 -0.998626 0.800623
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 43 
+				[
+					keys 1
+						0 1 0.1 0.5 -0.999175 0.550121
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 42 
+				[
+					keys 1
+						0 1 0.1 0.5 -0.999586 0.176219
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 41 
+				[
+					keys 1
+						0 1 0.1 0.5 -0.999863 -0.285832
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 40 
+				[
+					keys 1
+						0 1 0.1 0.5 -1 -0.800769
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 39 
+				[
+					keys 1
+						0 1 0.1 0.5 -1 -1.333333
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 38 
+				[
+					keys 1
+						0 1 0.1 0.5 -0.999863 -1.848269
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 37 
+				[
+					keys 1
+						0 1 0.1 0.5 -0.999588 -2.310321
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 36 
+				[
+					keys 1
+						0 1 0.1 0.5 -0.999175 -2.684223
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 35 
+				[
+					keys 1
+						0 1 0.1 0.5 -0.998626 -2.934725
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 34 
+				[
+					keys 1
+						0 1 0.1 0.5 -0.9061 -2.863605
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				2
+					0 32 5 1 
+				[
+					keys 1
+						0 1 0.1 0.5 -0.655598 -3.027801
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 31 
+				[
+					keys 1
+						0 1 0.1 0.5 -0.281695 -2.864486
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				2
+					0 30 1 1 
+				[
+					keys 1
+						0 1 0.1 0.5 0.180356 -3.028488
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 29 
+				[
+					keys 1
+						0 1 0.1 0.5 0.695292 -2.864863
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				2
+					0 28 2 0 
+				[
+					keys 1
+						0 1 0.1 0.5 1.227856 -3.028625
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 27 
+				[
+					keys 1
+						0 1 0.1 0.5 1.742793 -2.864738
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				2
+					0 26 3 1 
+				[
+					keys 1
+						0 1 0.1 0.5 2.204844 -3.028214
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 25 
+				[
+					keys 1
+						0 1 0.1 0.5 2.578746 -2.864109
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				2
+					0 24 4 0 
+				[
+					keys 1
+						0 1 0.1 0.5 2.829248 -3.027251
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 23 
+				[
+					keys 1
+						0 1 0.1 0.5 2.921775 -2.934725
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 21 
+				[
+					keys 1
+						0 1 0.1 0.5 2.922323 -2.684223
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 20 
+				[
+					keys 1
+						0 1 0.1 0.5 2.922735 -2.310321
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 19 
+				[
+					keys 1
+						0 1 0.1 0.5 2.923011 -1.848269
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 18 
+				[
+					keys 1
+						0 1 0.1 0.5 2.923149 -1.333333
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 17 
+				[
+					keys 1
+						0 1 0.1 0.5 2.923149 -0.800769
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 16 
+				[
+					keys 1
+						0 1 0.1 0.5 2.923011 -0.285832
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 15 
+				[
+					keys 1
+						0 1 0.1 0.5 2.922737 0.176219
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 14 
+				[
+					keys 1
+						0 1 0.1 0.5 2.922323 0.550121
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 13 
+				[
+					keys 1
+						0 1 0.1 0.5 2.921775 0.800623
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 12 
+				[
+					keys 1
+						0 1 0.1 0.5 2.829248 0.89315
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 10 
+				[
+					keys 1
+						0 1 0.1 0.5 2.578746 0.730006
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				2
+					0 9 4 1 
+				[
+					keys 1
+						0 1 0.1 0.5 2.204844 0.89411
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 8 
+				[
+					keys 1
+						0 1 0.1 0.5 1.742793 0.730635
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				2
+					0 7 3 0 
+				[
+					keys 1
+						0 1 0.1 0.5 1.227856 0.894523
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 6 
+				[
+					keys 1
+						0 1 0.1 0.5 0.695292 0.730761
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				2
+					0 5 2 1 
+				[
+					keys 1
+						0 1 0.1 0.5 0.180356 0.894386
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 4 
+				[
+					keys 1
+						0 1 0.1 0.5 -0.281695 0.730385
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				2
+					0 3 1 0 
+				[
+					keys 1
+						0 1 0.1 0.5 -0.655598 0.893698
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 2 
+				[
+					keys 1
+						0 1 0.1 0.5 -0.9061 0.729503
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				2
+					0 1 5 0 
+			curves 6
+				44 true
+					0 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+					43 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					42 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					41 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					40 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					39 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					38 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					37 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					36 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					35 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					34 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					1 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+					33 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					32 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					31 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					30 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					29 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					28 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					27 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					26 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					25 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					24 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					2 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+					23 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					22 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					21 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					20 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					19 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					18 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					17 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					16 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					15 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					14 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					3 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+					13 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					12 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					11 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					10 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					9 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					8 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					7 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					6 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					5 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					4 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+				2 false
+					41 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					16 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+				2 false
+					18 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					39 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+				2 false
+					37 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					20 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+				2 false
+					22 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					35 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+				2 false
+					43 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					14 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+			shapes 7
+				"" false true true true 
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0 0
+				]
+					44
+						0 0 0
+						0 11 0
+						0 22 0
+						0 33 0
+						0 43 0
+						0 42 0
+						0 41 0
+						0 40 0
+						0 39 0
+						0 38 0
+						0 37 0
+						0 36 0
+						0 35 0
+						0 34 0
+						0 32 0
+						0 31 0
+						0 30 0
+						0 29 0
+						0 28 0
+						0 27 0
+						0 26 0
+						0 25 0
+						0 24 0
+						0 23 0
+						0 21 0
+						0 20 0
+						0 19 0
+						0 18 0
+						0 17 0
+						0 16 0
+						0 15 0
+						0 14 0
+						0 13 0
+						0 12 0
+						0 10 0
+						0 9 0
+						0 8 0
+						0 7 0
+						0 6 0
+						0 5 0
+						0 4 0
+						0 3 0
+						0 2 0
+						0 1 0
+					""
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0.266667 0.266667 0.266667 1
+						]
+						false 0.066667
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0 0 0 1
+						]
+						""
+						false
+						6.283185
+						0.25
+						true
+						true
+						0
+													[
+							keys 1
+								0 1 0.1 0.5 0.716542
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0.066667
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0 0 0 0.501961
+						]
+		false 
+						-1
+						-1
+					""
+					""
+
+				"" false true true true 
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0 0
+				]
+					14
+						0 0 0
+						0 32 0
+						0 33 0
+						0 34 0
+						0 35 0
+						0 36 0
+						0 37 0
+						0 38 0
+						0 39 0
+						0 40 0
+						0 41 0
+						0 42 0
+						0 43 0
+						5 0 0
+					""
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0.266667 0.266667 0.266667 1
+						]
+						false 0.066667
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0 0 0 1
+						]
+						""
+						false
+						6.283185
+						0.25
+						true
+						true
+						-1
+						-1
+						-1
+					""
+					""
+
+				"" false true true true 
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0 0
+				]
+					6
+						0 1 0
+						0 2 0
+						0 30 0
+						0 31 0
+						1 0 0
+						5 0 0
+					""
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0.266667 0.266667 0.266667 1
+						]
+						false 0.066667
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0 0 0 1
+						]
+						""
+						false
+						6.283185
+						0.25
+						true
+						true
+						0
+													[
+							keys 1
+								0 1 0.1 0.5 0.716542
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0.066667
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0 0 0 0.501961
+						]
+		false 
+						-1
+						-1
+					""
+					""
+
+				"" false true true true 
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0 0
+				]
+					6
+						0 3 0
+						0 4 0
+						0 28 0
+						0 29 0
+						1 0 0
+						2 0 0
+					""
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0.266667 0.266667 0.266667 1
+						]
+						false 0.066667
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0 0 0 1
+						]
+						""
+						false
+						6.283185
+						0.25
+						true
+						true
+						0
+													[
+							keys 1
+								0 1 0.1 0.5 0.716542
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0.066667
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0 0 0 0.501961
+						]
+		false 
+						-1
+						-1
+					""
+					""
+
+				"" false true true true 
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0 0
+				]
+					6
+						0 5 0
+						0 6 0
+						0 26 0
+						0 27 0
+						2 0 0
+						3 0 0
+					""
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0.266667 0.266667 0.266667 1
+						]
+						false 0.066667
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0 0 0 1
+						]
+						""
+						false
+						6.283185
+						0.25
+						true
+						true
+						0
+													[
+							keys 1
+								0 1 0.1 0.5 0.716542
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0.066667
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0 0 0 0.501961
+						]
+		false 
+						-1
+						-1
+					""
+					""
+
+				"" false true true true 
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0 0
+				]
+					6
+						0 7 0
+						0 8 0
+						0 24 0
+						0 25 0
+						3 0 0
+						4 0 0
+					""
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0.266667 0.266667 0.266667 1
+						]
+						false 0.066667
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0 0 0 1
+						]
+						""
+						false
+						6.283185
+						0.25
+						true
+						true
+						0
+													[
+							keys 1
+								0 1 0.1 0.5 0.716542
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0.066667
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0 0 0 0.501961
+						]
+		false 
+						-1
+						-1
+					""
+					""
+
+				"" false true true true 
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0 0
+				]
+					16
+						0 9 0
+						0 10 0
+						0 11 0
+						0 12 0
+						0 13 0
+						0 14 0
+						0 15 0
+						0 16 0
+						0 17 0
+						0 18 0
+						0 19 0
+						0 20 0
+						0 21 0
+						0 22 0
+						0 23 0
+						4 0 0
+					""
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0.266667 0.266667 0.266667 1
+						]
+						false 0.066667
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0 0 0 1
+						]
+						""
+						false
+						6.283185
+						0.25
+						true
+						true
+						0
+													[
+							keys 1
+								0 1 0.1 0.5 0.716542
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0.066667
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0 0 0 0.501961
+						]
+		false 
+						-1
+						-1
+					""
+					""
+
+			groups 0
+		]
+	}
+	layer_type 1
+	{
+		### generic layer values
+		name "carriage conector 3"
+		quality_flags 2044
+		animated_layer_effects false
+		origin 0 0
+		parent_bone -1
+		visible true
+		render_only false
+		edit_only false
+		scale_compensation true
+		rotate_to_follow false
+		face_camera false
+		masking 0
+		blend_mode 0
+		camera_immune false
+		dof_immune false
+		timing_offset 0
+
+		### transforms
+		translation
+		[
+			keys 1
+				0 1 0.1 0.5 0 0 0
+		]
+		scale
+		[
+			keys 1
+				0 1 0.1 0.5 1 1 1
+		]
+		rotation_x
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		rotation_y
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		rotation_z
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		flip_h
+		[
+			keys 1
+				0 1 0.1 0.5 false
+		]
+		flip_v
+		[
+			keys 1
+				0 1 0.1 0.5 false
+		]
+		shear
+		[
+			keys 1
+				0 1 0.1 0.5 0 0 0
+		]
+
+		### layer effects
+
+		### mesh layer values
+		noisy_shapes false
+		noisy_lines false
+		animated_noise false
+		extra_sketchy true
+		noise_amp 0.1
+		noise_scale 0.8
+		extra_lines 5
+		gap_filling false
+		exclude_lines_from_mask false
+		fill_texture ""
+		line_texture ""
+		mesh
+		[
+			points 44
+				[
+					keys 1
+						0 1 0.1 0.5 -2.921088 0.892462
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 0 
+				[
+					keys 1
+						0 1 0.1 0.5 0.997938 0.892462
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 11 
+				[
+					keys 1
+						0 1 0.1 0.5 0.997938 -3.026564
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 22 
+				[
+					keys 1
+						0 1 0.1 0.5 -2.913902 -3.055306
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 33 
+				[
+					keys 1
+						0 1 0.1 0.5 -2.921775 0.800623
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 43 
+				[
+					keys 1
+						0 1 0.1 0.5 -2.922324 0.550121
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 42 
+				[
+					keys 1
+						0 1 0.1 0.5 -2.922735 0.176219
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 41 
+				[
+					keys 1
+						0 1 0.1 0.5 -2.923012 -0.285832
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 40 
+				[
+					keys 1
+						0 1 0.1 0.5 -2.923149 -0.800769
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 39 
+				[
+					keys 1
+						0 1 0.1 0.5 -2.923149 -1.333333
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 38 
+				[
+					keys 1
+						0 1 0.1 0.5 -2.923012 -1.848269
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 37 
+				[
+					keys 1
+						0 1 0.1 0.5 -2.922737 -2.310321
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 36 
+				[
+					keys 1
+						0 1 0.1 0.5 -2.922324 -2.684223
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 35 
+				[
+					keys 1
+						0 1 0.1 0.5 -2.921775 -2.934725
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 34 
+				[
+					keys 1
+						0 1 0.1 0.5 -2.829249 -2.863605
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				2
+					0 32 5 1 
+				[
+					keys 1
+						0 1 0.1 0.5 -2.578747 -3.027802
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 31 
+				[
+					keys 1
+						0 1 0.1 0.5 -2.204844 -2.864486
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				2
+					0 30 1 1 
+				[
+					keys 1
+						0 1 0.1 0.5 -1.742793 -3.028488
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 29 
+				[
+					keys 1
+						0 1 0.1 0.5 -1.227857 -2.864863
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				2
+					0 28 2 0 
+				[
+					keys 1
+						0 1 0.1 0.5 -0.695293 -3.028625
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 27 
+				[
+					keys 1
+						0 1 0.1 0.5 -0.180356 -2.864738
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				2
+					0 26 3 1 
+				[
+					keys 1
+						0 1 0.1 0.5 0.281695 -3.028214
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 25 
+				[
+					keys 1
+						0 1 0.1 0.5 0.655597 -2.86411
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				2
+					0 24 4 0 
+				[
+					keys 1
+						0 1 0.1 0.5 0.906099 -3.027251
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 23 
+				[
+					keys 1
+						0 1 0.1 0.5 0.998626 -2.934725
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 21 
+				[
+					keys 1
+						0 1 0.1 0.5 0.999174 -2.684223
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 20 
+				[
+					keys 1
+						0 1 0.1 0.5 0.999586 -2.310321
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 19 
+				[
+					keys 1
+						0 1 0.1 0.5 0.999862 -1.848269
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 18 
+				[
+					keys 1
+						0 1 0.1 0.5 1 -1.333333
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 17 
+				[
+					keys 1
+						0 1 0.1 0.5 1 -0.800769
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 16 
+				[
+					keys 1
+						0 1 0.1 0.5 0.999862 -0.285832
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 15 
+				[
+					keys 1
+						0 1 0.1 0.5 0.999588 0.176219
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 14 
+				[
+					keys 1
+						0 1 0.1 0.5 0.999174 0.550121
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 13 
+				[
+					keys 1
+						0 1 0.1 0.5 0.998626 0.800623
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 12 
+				[
+					keys 1
+						0 1 0.1 0.5 0.906099 0.89315
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 10 
+				[
+					keys 1
+						0 1 0.1 0.5 0.655597 0.730006
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				2
+					0 9 4 1 
+				[
+					keys 1
+						0 1 0.1 0.5 0.281695 0.89411
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 8 
+				[
+					keys 1
+						0 1 0.1 0.5 -0.180356 0.730635
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				2
+					0 7 3 0 
+				[
+					keys 1
+						0 1 0.1 0.5 -0.695293 0.894523
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 6 
+				[
+					keys 1
+						0 1 0.1 0.5 -1.227857 0.730761
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				2
+					0 5 2 1 
+				[
+					keys 1
+						0 1 0.1 0.5 -1.742793 0.894386
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 4 
+				[
+					keys 1
+						0 1 0.1 0.5 -2.204844 0.730385
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				2
+					0 3 1 0 
+				[
+					keys 1
+						0 1 0.1 0.5 -2.578747 0.893698
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 2 
+				[
+					keys 1
+						0 1 0.1 0.5 -2.829249 0.729503
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				2
+					0 1 5 0 
+			curves 6
+				44 true
+					0 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+					43 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					42 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					41 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					40 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					39 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					38 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					37 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					36 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					35 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					34 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					1 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+					33 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					32 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					31 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					30 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					29 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					28 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					27 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					26 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					25 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					24 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					2 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+					23 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					22 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					21 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					20 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					19 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					18 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					17 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					16 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					15 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					14 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					3 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+					13 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					12 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					11 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					10 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					9 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					8 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					7 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					6 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					5 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					4 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+				2 false
+					41 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					16 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+				2 false
+					18 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					39 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+				2 false
+					37 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					20 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+				2 false
+					22 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					35 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+				2 false
+					43 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					14 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+			shapes 7
+				"" false true true true 
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0 0
+				]
+					44
+						0 0 0
+						0 11 0
+						0 22 0
+						0 33 0
+						0 43 0
+						0 42 0
+						0 41 0
+						0 40 0
+						0 39 0
+						0 38 0
+						0 37 0
+						0 36 0
+						0 35 0
+						0 34 0
+						0 32 0
+						0 31 0
+						0 30 0
+						0 29 0
+						0 28 0
+						0 27 0
+						0 26 0
+						0 25 0
+						0 24 0
+						0 23 0
+						0 21 0
+						0 20 0
+						0 19 0
+						0 18 0
+						0 17 0
+						0 16 0
+						0 15 0
+						0 14 0
+						0 13 0
+						0 12 0
+						0 10 0
+						0 9 0
+						0 8 0
+						0 7 0
+						0 6 0
+						0 5 0
+						0 4 0
+						0 3 0
+						0 2 0
+						0 1 0
+					""
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0.266667 0.266667 0.266667 1
+						]
+						false 0.066667
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0 0 0 1
+						]
+						""
+						false
+						6.283185
+						0.25
+						true
+						true
+						0
+													[
+							keys 1
+								0 1 0.1 0.5 0.716542
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0.066667
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0 0 0 0.501961
+						]
+		false 
+						-1
+						-1
+					""
+					""
+
+				"" false true true true 
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0 0
+				]
+					14
+						0 0 0
+						0 32 0
+						0 33 0
+						0 34 0
+						0 35 0
+						0 36 0
+						0 37 0
+						0 38 0
+						0 39 0
+						0 40 0
+						0 41 0
+						0 42 0
+						0 43 0
+						5 0 0
+					""
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0.266667 0.266667 0.266667 1
+						]
+						false 0.066667
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0 0 0 1
+						]
+						""
+						false
+						6.283185
+						0.25
+						true
+						true
+						-1
+						-1
+						-1
+					""
+					""
+
+				"" false true true true 
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0 0
+				]
+					6
+						0 1 0
+						0 2 0
+						0 30 0
+						0 31 0
+						1 0 0
+						5 0 0
+					""
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0.266667 0.266667 0.266667 1
+						]
+						false 0.066667
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0 0 0 1
+						]
+						""
+						false
+						6.283185
+						0.25
+						true
+						true
+						0
+													[
+							keys 1
+								0 1 0.1 0.5 0.716542
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0.066667
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0 0 0 0.501961
+						]
+		false 
+						-1
+						-1
+					""
+					""
+
+				"" false true true true 
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0 0
+				]
+					6
+						0 3 0
+						0 4 0
+						0 28 0
+						0 29 0
+						1 0 0
+						2 0 0
+					""
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0.266667 0.266667 0.266667 1
+						]
+						false 0.066667
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0 0 0 1
+						]
+						""
+						false
+						6.283185
+						0.25
+						true
+						true
+						0
+													[
+							keys 1
+								0 1 0.1 0.5 0.716542
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0.066667
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0 0 0 0.501961
+						]
+		false 
+						-1
+						-1
+					""
+					""
+
+				"" false true true true 
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0 0
+				]
+					6
+						0 5 0
+						0 6 0
+						0 26 0
+						0 27 0
+						2 0 0
+						3 0 0
+					""
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0.266667 0.266667 0.266667 1
+						]
+						false 0.066667
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0 0 0 1
+						]
+						""
+						false
+						6.283185
+						0.25
+						true
+						true
+						0
+													[
+							keys 1
+								0 1 0.1 0.5 0.716542
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0.066667
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0 0 0 0.501961
+						]
+		false 
+						-1
+						-1
+					""
+					""
+
+				"" false true true true 
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0 0
+				]
+					6
+						0 7 0
+						0 8 0
+						0 24 0
+						0 25 0
+						3 0 0
+						4 0 0
+					""
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0.266667 0.266667 0.266667 1
+						]
+						false 0.066667
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0 0 0 1
+						]
+						""
+						false
+						6.283185
+						0.25
+						true
+						true
+						0
+													[
+							keys 1
+								0 1 0.1 0.5 0.716542
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0.066667
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0 0 0 0.501961
+						]
+		false 
+						-1
+						-1
+					""
+					""
+
+				"" false true true true 
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0 0
+				]
+					16
+						0 9 0
+						0 10 0
+						0 11 0
+						0 12 0
+						0 13 0
+						0 14 0
+						0 15 0
+						0 16 0
+						0 17 0
+						0 18 0
+						0 19 0
+						0 20 0
+						0 21 0
+						0 22 0
+						0 23 0
+						4 0 0
+					""
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0.266667 0.266667 0.266667 1
+						]
+						false 0.066667
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0 0 0 1
+						]
+						""
+						false
+						6.283185
+						0.25
+						true
+						true
+						0
+													[
+							keys 1
+								0 1 0.1 0.5 0.716542
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0.066667
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0 0 0 0.501961
+						]
+		false 
+						-1
+						-1
+					""
+					""
+
+			groups 0
+		]
+	}
+	layer_type 1
+	{
+		### generic layer values
+		name "carriage conector 4"
+		quality_flags 2044
+		animated_layer_effects false
+		origin 0 0
+		parent_bone -1
+		visible true
+		render_only false
+		edit_only false
+		scale_compensation true
+		rotate_to_follow false
+		face_camera false
+		masking 0
+		blend_mode 0
+		camera_immune false
+		dof_immune false
+		timing_offset 0
+
+		### transforms
+		translation
+		[
+			keys 1
+				0 1 0.1 0.5 0 0 0
+		]
+		scale
+		[
+			keys 1
+				0 1 0.1 0.5 1 1 1
+		]
+		rotation_x
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		rotation_y
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		rotation_z
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		flip_h
+		[
+			keys 1
+				0 1 0.1 0.5 false
+		]
+		flip_v
+		[
+			keys 1
+				0 1 0.1 0.5 false
+		]
+		shear
+		[
+			keys 1
+				0 1 0.1 0.5 0 0 0
+		]
+
+		### layer effects
+
+		### mesh layer values
+		noisy_shapes false
+		noisy_lines false
+		animated_noise false
+		extra_sketchy true
+		noise_amp 0.1
+		noise_scale 0.8
+		extra_lines 5
+		gap_filling false
+		exclude_lines_from_mask false
+		fill_texture ""
+		line_texture ""
+		mesh
+		[
+			points 44
+				[
+					keys 2
+						0 1 0.1 0.5 -2.92095 3.074064
+						6 1 0.1 0.5 -2.919026 2.919026
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 0 
+				[
+					keys 2
+						0 1 0.1 0.5 0.998076 3.074064
+						6 1 0.1 0.5 1 2.919026
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 11 
+				[
+					keys 2
+						0 1 0.1 0.5 0.998076 -0.844962
+						6 1 0.1 0.5 1 -1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 22 
+				[
+					keys 2
+						0 1 0.1 0.5 -2.913764 -0.873704
+						6 1 0.1 0.5 -2.91184 -1.028742
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 33 
+				[
+					keys 2
+						0 1 0.1 0.5 -2.921637 2.982225
+						6 1 0.1 0.5 -2.919713 2.827187
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 43 
+				[
+					keys 2
+						0 1 0.1 0.5 -2.922186 2.731723
+						6 1 0.1 0.5 -2.920262 2.576685
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 42 
+				[
+					keys 2
+						0 1 0.1 0.5 -2.922597 2.357821
+						6 1 0.1 0.5 -2.920673 2.202783
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 41 
+				[
+					keys 2
+						0 1 0.1 0.5 -2.922874 1.89577
+						6 1 0.1 0.5 -2.92095 1.740732
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 40 
+				[
+					keys 2
+						0 1 0.1 0.5 -2.923011 1.380833
+						6 1 0.1 0.5 -2.921087 1.225795
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 39 
+				[
+					keys 2
+						0 1 0.1 0.5 -2.923011 0.848269
+						6 1 0.1 0.5 -2.921087 0.693231
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 38 
+				[
+					keys 2
+						0 1 0.1 0.5 -2.922874 0.333333
+						6 1 0.1 0.5 -2.92095 0.178295
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 37 
+				[
+					keys 2
+						0 1 0.1 0.5 -2.922599 -0.128719
+						6 1 0.1 0.5 -2.920675 -0.283757
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 36 
+				[
+					keys 2
+						0 1 0.1 0.5 -2.922186 -0.502621
+						6 1 0.1 0.5 -2.920262 -0.657659
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 35 
+				[
+					keys 2
+						0 1 0.1 0.5 -2.921637 -0.753123
+						6 1 0.1 0.5 -2.919713 -0.908161
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 34 
+				[
+					keys 2
+						0 1 0.1 0.5 -2.829111 -0.682003
+						6 1 0.1 0.5 -2.827187 -0.837041
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				2
+					0 32 5 1 
+				[
+					keys 2
+						0 1 0.1 0.5 -2.578609 -0.8462
+						6 1 0.1 0.5 -2.576685 -1.001238
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 31 
+				[
+					keys 2
+						0 1 0.1 0.5 -2.204706 -0.682884
+						6 1 0.1 0.5 -2.202782 -0.837922
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				2
+					0 30 1 1 
+				[
+					keys 2
+						0 1 0.1 0.5 -1.742655 -0.846886
+						6 1 0.1 0.5 -1.740731 -1.001924
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 29 
+				[
+					keys 2
+						0 1 0.1 0.5 -1.227719 -0.683261
+						6 1 0.1 0.5 -1.225795 -0.838299
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				2
+					0 28 2 0 
+				[
+					keys 2
+						0 1 0.1 0.5 -0.695155 -0.847023
+						6 1 0.1 0.5 -0.693231 -1.002061
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 27 
+				[
+					keys 2
+						0 1 0.1 0.5 -0.180218 -0.683136
+						6 1 0.1 0.5 -0.178294 -0.838174
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				2
+					0 26 3 1 
+				[
+					keys 2
+						0 1 0.1 0.5 0.281833 -0.846612
+						6 1 0.1 0.5 0.283757 -1.00165
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 25 
+				[
+					keys 2
+						0 1 0.1 0.5 0.655735 -0.682508
+						6 1 0.1 0.5 0.657659 -0.837546
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				2
+					0 24 4 0 
+				[
+					keys 2
+						0 1 0.1 0.5 0.906237 -0.845649
+						6 1 0.1 0.5 0.908161 -1.000687
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 23 
+				[
+					keys 2
+						0 1 0.1 0.5 0.998764 -0.753123
+						6 1 0.1 0.5 1.000688 -0.908161
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 21 
+				[
+					keys 2
+						0 1 0.1 0.5 0.999312 -0.502621
+						6 1 0.1 0.5 1.001236 -0.657659
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 20 
+				[
+					keys 2
+						0 1 0.1 0.5 0.999724 -0.128719
+						6 1 0.1 0.5 1.001648 -0.283757
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 19 
+				[
+					keys 2
+						0 1 0.1 0.5 1 0.333333
+						6 1 0.1 0.5 1.001924 0.178295
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 18 
+				[
+					keys 2
+						0 1 0.1 0.5 1.000138 0.848269
+						6 1 0.1 0.5 1.002062 0.693231
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 17 
+				[
+					keys 2
+						0 1 0.1 0.5 1.000138 1.380833
+						6 1 0.1 0.5 1.002062 1.225795
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 16 
+				[
+					keys 2
+						0 1 0.1 0.5 1 1.89577
+						6 1 0.1 0.5 1.001924 1.740732
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 15 
+				[
+					keys 2
+						0 1 0.1 0.5 0.999726 2.357821
+						6 1 0.1 0.5 1.00165 2.202783
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 14 
+				[
+					keys 2
+						0 1 0.1 0.5 0.999312 2.731723
+						6 1 0.1 0.5 1.001236 2.576685
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 13 
+				[
+					keys 2
+						0 1 0.1 0.5 0.998764 2.982225
+						6 1 0.1 0.5 1.000688 2.827187
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 12 
+				[
+					keys 2
+						0 1 0.1 0.5 0.906237 3.074752
+						6 1 0.1 0.5 0.908161 2.919714
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 10 
+				[
+					keys 2
+						0 1 0.1 0.5 0.655735 2.911608
+						6 1 0.1 0.5 0.657659 2.75657
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				2
+					0 9 4 1 
+				[
+					keys 2
+						0 1 0.1 0.5 0.281833 3.075712
+						6 1 0.1 0.5 0.283757 2.920674
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 8 
+				[
+					keys 2
+						0 1 0.1 0.5 -0.180218 2.912237
+						6 1 0.1 0.5 -0.178294 2.757199
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				2
+					0 7 3 0 
+				[
+					keys 2
+						0 1 0.1 0.5 -0.695155 3.076125
+						6 1 0.1 0.5 -0.693231 2.921087
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 6 
+				[
+					keys 2
+						0 1 0.1 0.5 -1.227719 2.912363
+						6 1 0.1 0.5 -1.225795 2.757325
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				2
+					0 5 2 1 
+				[
+					keys 2
+						0 1 0.1 0.5 -1.742655 3.075988
+						6 1 0.1 0.5 -1.740731 2.92095
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 4 
+				[
+					keys 2
+						0 1 0.1 0.5 -2.204706 2.911987
+						6 1 0.1 0.5 -2.202782 2.756949
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				2
+					0 3 1 0 
+				[
+					keys 2
+						0 1 0.1 0.5 -2.578609 3.0753
+						6 1 0.1 0.5 -2.576685 2.920262
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				1
+					0 2 
+				[
+					keys 2
+						0 1 0.1 0.5 -2.829111 2.911105
+						6 1 0.1 0.5 -2.827187 2.756067
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.033333
+				]
+				-2
+				true
+				2
+					0 1 5 0 
+			curves 6
+				44 true
+					0 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+					43 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					42 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					41 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					40 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					39 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					38 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					37 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					36 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					35 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					34 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					1 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+					33 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					32 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					31 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					30 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					29 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					28 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					27 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					26 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					25 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					24 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					2 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+					23 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					22 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					21 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					20 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					19 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					18 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					17 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					16 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					15 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					14 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					3 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.001
+					]
+					13 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					12 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					11 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					10 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					9 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					8 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					7 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					6 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					5 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					4 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+				2 false
+					41 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					16 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+				2 false
+					18 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					39 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+				2 false
+					37 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					20 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+				2 false
+					22 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					35 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+				2 false
+					43 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+					14 true
+					[
+						keys 1
+							0 1 0.1 0.5 0.3
+					]
+			shapes 7
+				"" false true true true 
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0 0
+				]
+					44
+						0 0 0
+						0 11 0
+						0 22 0
+						0 33 0
+						0 43 0
+						0 42 0
+						0 41 0
+						0 40 0
+						0 39 0
+						0 38 0
+						0 37 0
+						0 36 0
+						0 35 0
+						0 34 0
+						0 32 0
+						0 31 0
+						0 30 0
+						0 29 0
+						0 28 0
+						0 27 0
+						0 26 0
+						0 25 0
+						0 24 0
+						0 23 0
+						0 21 0
+						0 20 0
+						0 19 0
+						0 18 0
+						0 17 0
+						0 16 0
+						0 15 0
+						0 14 0
+						0 13 0
+						0 12 0
+						0 10 0
+						0 9 0
+						0 8 0
+						0 7 0
+						0 6 0
+						0 5 0
+						0 4 0
+						0 3 0
+						0 2 0
+						0 1 0
+					""
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0.266667 0.266667 0.266667 1
+						]
+						false 0.066667
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0 0 0 1
+						]
+						""
+						false
+						6.283185
+						0.25
+						true
+						true
+						0
+													[
+							keys 1
+								0 1 0.1 0.5 0.716542
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0.066667
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0 0 0 0.501961
+						]
+		false 
+						-1
+						-1
+					""
+					""
+
+				"" false true true true 
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0 0
+				]
+					14
+						0 0 0
+						0 32 0
+						0 33 0
+						0 34 0
+						0 35 0
+						0 36 0
+						0 37 0
+						0 38 0
+						0 39 0
+						0 40 0
+						0 41 0
+						0 42 0
+						0 43 0
+						5 0 0
+					""
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0.266667 0.266667 0.266667 1
+						]
+						false 0.066667
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0 0 0 1
+						]
+						""
+						false
+						6.283185
+						0.25
+						true
+						true
+						-1
+						-1
+						-1
+					""
+					""
+
+				"" false true true true 
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0 0
+				]
+					6
+						0 1 0
+						0 2 0
+						0 30 0
+						0 31 0
+						1 0 0
+						5 0 0
+					""
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0.266667 0.266667 0.266667 1
+						]
+						false 0.066667
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0 0 0 1
+						]
+						""
+						false
+						6.283185
+						0.25
+						true
+						true
+						0
+													[
+							keys 1
+								0 1 0.1 0.5 0.716542
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0.066667
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0 0 0 0.501961
+						]
+		false 
+						-1
+						-1
+					""
+					""
+
+				"" false true true true 
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0 0
+				]
+					6
+						0 3 0
+						0 4 0
+						0 28 0
+						0 29 0
+						1 0 0
+						2 0 0
+					""
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0.266667 0.266667 0.266667 1
+						]
+						false 0.066667
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0 0 0 1
+						]
+						""
+						false
+						6.283185
+						0.25
+						true
+						true
+						0
+													[
+							keys 1
+								0 1 0.1 0.5 0.716542
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0.066667
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0 0 0 0.501961
+						]
+		false 
+						-1
+						-1
+					""
+					""
+
+				"" false true true true 
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0 0
+				]
+					6
+						0 5 0
+						0 6 0
+						0 26 0
+						0 27 0
+						2 0 0
+						3 0 0
+					""
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0.266667 0.266667 0.266667 1
+						]
+						false 0.066667
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0 0 0 1
+						]
+						""
+						false
+						6.283185
+						0.25
+						true
+						true
+						0
+													[
+							keys 1
+								0 1 0.1 0.5 0.716542
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0.066667
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0 0 0 0.501961
+						]
+		false 
+						-1
+						-1
+					""
+					""
+
+				"" false true true true 
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0 0
+				]
+					6
+						0 7 0
+						0 8 0
+						0 24 0
+						0 25 0
+						3 0 0
+						4 0 0
+					""
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0.266667 0.266667 0.266667 1
+						]
+						false 0.066667
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0 0 0 1
+						]
+						""
+						false
+						6.283185
+						0.25
+						true
+						true
+						0
+													[
+							keys 1
+								0 1 0.1 0.5 0.716542
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0.066667
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0 0 0 0.501961
+						]
+		false 
+						-1
+						-1
+					""
+					""
+
+				"" false true true true 
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0 0
+				]
+					16
+						0 9 0
+						0 10 0
+						0 11 0
+						0 12 0
+						0 13 0
+						0 14 0
+						0 15 0
+						0 16 0
+						0 17 0
+						0 18 0
+						0 19 0
+						0 20 0
+						0 21 0
+						0 22 0
+						0 23 0
+						4 0 0
+					""
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0.266667 0.266667 0.266667 1
+						]
+						false 0.066667
+						false
+						[
+							keys 1
+								0 0 0.1 0.5 0 0 0 1
+						]
+						""
+						false
+						6.283185
+						0.25
+						true
+						true
+						0
+													[
+							keys 1
+								0 1 0.1 0.5 0.716542
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0.066667
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0
+						]
+								[
+							keys 1
+								0 1 0.1 0.5 0 0 0 0.501961
+						]
+		false 
+						-1
+						-1
+					""
+					""
+
+			groups 0
+		]
+	}
+}
