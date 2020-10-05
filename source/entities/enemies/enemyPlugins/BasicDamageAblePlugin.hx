@@ -43,6 +43,7 @@ class BasicDamageAblePlugin implements EnemyPlugin implements EnemyDamagePlugin
 			else thisEn.velocity.x = pWeapon.knockback;
 			cd = 0.5;
 			FlxSpriteUtil.flicker(thisEn, 0.5);
+			FlxG.camera.shake(0.005, 0.05);
 		}
 	}
 	

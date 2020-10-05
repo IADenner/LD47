@@ -20,4 +20,9 @@ class Entity extends FlxSprite
 		
 	}
 	
+	
+	public override function update(elapsed:Float)
+	{
+		super.update(elapsed);
+	}
 }

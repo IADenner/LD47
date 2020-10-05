@@ -31,7 +31,7 @@ class RobotCharger extends Enemy
 		if (Math.random() < 0.5) dir = 1;
 		else dir = -1;
 		
-		health = 1;
+		health = 2;
 	}
 	
 }

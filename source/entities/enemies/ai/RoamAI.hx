@@ -26,8 +26,10 @@ class RoamAI implements EnemyAI
 	public function update()
 	{
 		ent.maxVelocity.x = spd;
-		manageDirection();
 		ent.acceleration.x = ent.dir * spd;
+		
+		manageDirection();
+		
 	}
 	
 	private function manageDirection()

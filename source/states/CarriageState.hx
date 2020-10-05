@@ -1,5 +1,7 @@
 package states;
+import entities.enemies.Conductor;
 import entities.enemies.Enemy;
+import entities.enemies.Heart;
 import entities.enemies.RapidFireTurret;
 import entities.enemies.RobotCharger;
 import entities.enemies.Turret;
@@ -15,10 +17,13 @@ import flixel.addons.editors.ogmo.FlxOgmo3Loader;
 import flixel.addons.editors.ogmo.FlxOgmo3Loader.EntityData;
 import flixel.FlxState;
 import flixel.group.FlxGroup;
+import flixel.text.FlxText;
 import flixel.tile.FlxTilemap;
 import entities.playerstuff.Player;
 import entities.weapons.Weapon;
 import entities.Entity;
+import flixel.util.FlxColor;
+import states.carriagePlugins.CarriagePlugin;
 /**
  * ...
  * @author Isaac Denner
@@ -26,7 +31,7 @@ import entities.Entity;
 class CarriageState extends FlxState 
 {
 	var ogmoLoader:FlxOgmo3Loader;
-	var tileMap:FlxTilemap;
+	public var tileMap:FlxTilemap;
 	var bgMap:FlxTilemap;
 	
 	var bg:FlxSprite;
@@ -38,6 +43,12 @@ class CarriageState extends FlxState
 	public static var damagers:FlxTypedGroup<Entity>;
 	public static var enemies:FlxTypedGroup<Enemy>;
 	public static var solids:FlxTypedGroup<Entity>;
+	public static var plugins:Array <CarriagePlugin>;
+	
+	var healthMeter:FlxText;
+	var messages:FlxText = "BEAT ALL ENEMIES";
+	
+	public static var messageTexts:String;
 	
 	public override function new(loader:FlxOgmo3Loader)
 	{
@@ -66,21 +77,40 @@ class CarriageState extends FlxState
 			var p1 = new Player(171, 883, new InputController());
 			players.push(p1);
 			
-			camera.follow(p1, FlxCameraFollowStyle.PLATFORMER, 100);
+			
+		}
+		
+		if (plugins == null) 
+		{
+			plugins = new Array<CarriagePlugin>();
 		}
 		
 		tileMap = new FlxTilemap();
 		ogmoLoader.loadTilemap("assets/images/tileset.png", "Main", tileMap);
 		add(tileMap);
 		
-		camera.maxScrollX = tileMap.width;
-		camera.minScrollX = 0;
-		camera.maxScrollY = tileMap.height;
-		camera.minScrollY = 0;
+		FlxG.worldBounds.set(0, 0, tileMap.widthInTiles * 60 + 60, tileMap.heightInTiles * 60 + 60);
 		
 		ogmoLoader.loadEntities(loadEntity, "test");
 		
 		FlxG.log.add(players[0].x);
+		
+		for (i in plugins)
+		{
+			i.onEnter(this);
+		}
+		
+		healthMeter = new FlxText(0, 0, 300, "5", 30);
+		add(healthMeter);
+		
+		messages = new FlxText(0, 80, 300, "EXTRA WIN CONDITIONS: " + messageTexts, 30);
+		add(messages);
+		
+		
+		//FlxG.camera.maxScrollX = tileMap.width;
+		//FlxG.camera.minScrollX = 0;
+		//FlxG.camera.maxScrollY = tileMap.height;
+		//FlxG.camera.minScrollY = 0;
 	}
 	
 	override public function create():Void
@@ -114,27 +144,45 @@ class CarriageState extends FlxState
 		updateBG();
 		super.update(elapsed);
 		
+		FlxG.camera.follow(players[0], FlxCameraFollowStyle.PLATFORMER);
+		FlxG.camera.maxScrollX = tileMap.width;
+		FlxG.camera.minScrollX = 0;
+		FlxG.camera.maxScrollY = tileMap.height;
+		FlxG.camera.minScrollY = 0;
+		healthMeter.text = "Health: " + players[0].health;
+		
+		
 		var allPlayersDead:Bool = true; //assume all players are dead until proven otherwise
 		for (i in players)
 		{
 			FlxG.collide(i, tileMap);
 			if (i.collideWSolids) FlxG.collide(i, solids);
 			
-			if (i.x > tileMap.widthInTiles * 60 - 60) 
+			if (i.x > tileMap.widthInTiles * 60 - 120) 
 			{
 				if (enemies.countLiving() == 0) exitState();
-				else if (i.velocity > 0) i.velocity = 0;
+				else if (i.velocity.x > 0) i.velocity.x = 0;
 			}
 			
 			if (i.health > 0) allPlayersDead = false;
 		}
 	
 		if (allPlayersDead) gameover();
+		
+		for (i in plugins)
+		{
+			i.update();
+		}
 	}
 	
 	public function gameover()
 	{
-		FlxG.
+		camera.fade(FlxColor.BLACK, 1.0, false, onfadecomplete);
+	}
+	
+	public function onfadecomplete()
+	{
+		FlxG.resetGame();
 	}
 	
 	
@@ -143,7 +191,7 @@ class CarriageState extends FlxState
 		remove(players[0].mainWeapon);
 		
 		DungeonGenerator.currentLevel += 1;
-		FlxG.switchState(new CarriageState(new FlxOgmo3Loader("assets/level1.ogmo", "assets/levels/level" + DungeonGenerator.currentLevel + ".json")));
+		FlxG.switchState(new CarriageState(new FlxOgmo3Loader("assets/level1.ogmo", "assets/levels/level" + DungeonGenerator.levels[DungeonGenerator.currentLevel] + ".json")));
 	}
 	
 	function loadEntity(entity:EntityData)
@@ -182,6 +230,8 @@ class CarriageState extends FlxState
 					add(newPlayer);
 					add(newPlayer.mainWeapon);
 					
+					
+					
 				}
 			case "robotroamer":
 				add(new RobotRoamer(entity.x, entity.y, tileMap));
@@ -195,6 +245,10 @@ class CarriageState extends FlxState
 				add(new Table(entity.x, entity.y));
 			case "chair":
 				add(new Chair(entity.x, entity.y, entity.flippedX));
+			case "heart":
+				add(new Heart(entity.x, entity.y));
+			case "conductor":
+				add (new Conductor(entity.x, entity.y, tileMap));
 			default: FlxG.log.add("unrecognized entity");
 		}
 	}

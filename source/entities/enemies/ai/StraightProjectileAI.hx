@@ -26,6 +26,8 @@ class StraightProjectileAI implements EnemyAI
 	public function update():Void 
 	{
 		ent.velocity.x = spd * ent.dir;
+		
+		if (ent.x < 0 || ent.x > tilemap.widthInTiles * 60) ent.kill();
 	}
 	
 	private function killProj(thisEnt:Entity, tmap:FlxTilemap)

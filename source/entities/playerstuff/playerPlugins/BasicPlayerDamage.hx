@@ -47,6 +47,7 @@ class BasicPlayerDamage implements PlayerPlugin
 		thisPlayer.changeState(thisPlayer.knockBackState);
 		cd = cdTime;
 		
+		FlxG.camera.shake(0.01, 0.05);
 		FlxSpriteUtil.flicker(thisPlayer, cdTime);
 	}
 	

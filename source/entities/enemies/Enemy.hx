@@ -36,7 +36,11 @@ class Enemy extends Entity
 	
 	public override function update(elapsed:Float)
 	{
-		if (this.y > tmap.heightInTiles * 60) kill();
+		if (this.y > tmap.heightInTiles * 60) 
+		{
+			health = 0;
+			kill();
+		}
 		
 		FlxG.collide(tmap, this, collideCB);
 		
@@ -53,7 +57,7 @@ class Enemy extends Entity
 			i.update();
 		}
 		
-		if (health < 0)
+		if (health <= 0)
 		{
 			kill();
 		}

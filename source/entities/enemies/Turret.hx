@@ -26,6 +26,7 @@ class Turret extends Enemy
 		offset.x = 30;
 		damagePlugin = new BasicDamageAblePlugin(this, 0.0);
 		
+		dir = -1;
 		health = 1;
 	}
 	

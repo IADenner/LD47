@@ -18,7 +18,7 @@ class ChargeAI extends RoamAI
 		
 	}
 	
-	public override function update(elapsed:Float)
+	public override function update()
 	{
 		super.update();
 		dirSwitchTimer -= 1 / 60.0;
@@ -30,9 +30,12 @@ class ChargeAI extends RoamAI
 		}
 	}
 	
-	public override function managedirection()
+	public override function manageDirection()
 	{
-		if (charging) super.manageDirection();
-		else ent.dir = 0;
+		if (charging)
+		{
+			super.manageDirection();
+		}
+		else ent.acceleration.x = 0;
 	}
 }

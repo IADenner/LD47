@@ -62,7 +62,8 @@
         {"name": "player", "id": 37, "_eid": "75250643", "x": 60, "y": 900, "originX": 0, "originY": 0},
         {"name": "robotroamer", "id": 39, "_eid": "83418529", "x": 960, "y": 540, "originX": 0, "originY": 0},
         {"name": "turret", "id": 41, "_eid": "84538743", "x": 1620, "y": 540, "originX": 0, "originY": 0},
-        {"name": "turret", "id": 43, "_eid": "84538743", "x": 240, "y": 540, "originX": 0, "originY": 0}
+        {"name": "turret", "id": 43, "_eid": "84538743", "x": 240, "y": 540, "originX": 0, "originY": 0},
+        {"name": "heart", "id": 44, "_eid": "93273933", "x": 960, "y": 960, "originX": 0, "originY": 0}
       ]
     },
     {
